@@ -1,2 +1,5 @@
 # NLP2017
-homework of NLP class.
+
+#### 忽然想到 如果搜不到的字，或是同意詞沒擴充好，其實就等於是放進 0(neutral)而已，好像也不至於不能做XD
+#### 目前使用jieba斷詞系統，那，需要斷詞的有：aspect_review, polarity_review, test_review
+#### aspect_term.txt裡根本沒東西OAO 要自己建 。
