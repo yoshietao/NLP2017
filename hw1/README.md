@@ -5,9 +5,9 @@
 #### aspect_term.txt裡根本沒東西OAO 要自己建 。
 ***
     stanford+nltk toolkit:
-    +   簡體較適合
-    +   先segment->pos tagging or parse tree
+    簡體較適合
+    先segment->pos tagging or parse tree
 ***
     opencc:
-    +   https://github.com/yichen0831/opencc-python
+    https://github.com/yichen0831/opencc-python
     
