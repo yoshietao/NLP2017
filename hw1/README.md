@@ -11,7 +11,7 @@
 #### opencc:
 https://github.com/yichen0831/opencc-python
     
-*** website
+*** 
 #### 詞性：
 https://github.com/memect/kg-beijing/wiki/%E4%B8%AD%E6%96%87%E8%AF%8D%E6%80%A7%E6%A0%87%E8%AE%B0%E9%9B%86
 #### 編碼：
