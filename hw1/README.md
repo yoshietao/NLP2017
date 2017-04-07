@@ -4,6 +4,10 @@
 #### 目前使用jieba斷詞系統，那，需要斷詞的有：aspect_review, polarity_review, test_review
 #### aspect_term.txt裡根本沒東西OAO 要自己建 。
 ***
-    stanford+nltk toolkit
+    stanford+nltk toolkit:
     簡體較適合
     先segment->pos tagging or parse tree
+***
+    opencc:
+    https://github.com/yichen0831/opencc-python
+    
