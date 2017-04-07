@@ -27,5 +27,5 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutoria
 ***
     方法一：
     word embedding, 
-    N+adj --> 1 or -1 大量蒐集 --->train
+    N+adj --> 1 or -1 大量蒐集 --->train
     test,
