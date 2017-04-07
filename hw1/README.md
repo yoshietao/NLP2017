@@ -22,3 +22,8 @@ https://kaggle.com/join/ntunlp2017project1
 #### 關於編碼，如果從function出來的話，就會是unicode string,如果是直接宣告的話，ex: x = "chat",出來會是byte string的格式
 #### 剛剛發現，如果讀取中文的file,讀進來會是byte string的格式，所以就都轉unicode string吧~
 #### 不過由於這不是宣告，所以不能用 u"chat"來轉，所以：unicode(line,"utf-8") 可以用來轉line這個byte string variable
+***
+    方法一：
+    word embedding, 
+    N+adj --> 1 or -1 大量蒐集 --->train
+    test,
