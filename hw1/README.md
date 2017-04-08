@@ -33,3 +33,5 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutoria
     N+adj --> 1 or -1 大量蒐集 --->train
     test,
 ***
+    問題：
+    1.價格貴，卻物超所值....這該怎麼解？
