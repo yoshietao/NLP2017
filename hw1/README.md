@@ -14,15 +14,9 @@ https://github.com/yichen0831/opencc-python
 *** 
 #### 詞性：
 https://github.com/memect/kg-beijing/wiki/%E4%B8%AD%E6%96%87%E8%AF%8D%E6%80%A7%E6%A0%87%E8%AE%B0%E9%9B%86
-不相關的詞性：
-DEG/DEC：的
-AS：了
-P：加，因為...
-DT：這個
-PU：標點符號
-CD：一
-M：顆
-LC：中
+
+    不相關的詞性：
+    DEG/DEC：的   AS：了   P：加，因為...   DT：這個   PU：標點符號   CD：一   M：顆   LC：中
 #### 編碼：
 http://blog.wahahajk.com/2009/08/unicodedecodeerror-ascii-codec-cant.html
 http://www.prudentman.idv.tw/2015/08/python-string-list-chinese-encode-decode.html
