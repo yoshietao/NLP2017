@@ -32,6 +32,9 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutoria
     word embedding, chi square find co-occur adj
     N+adj --> 1 or -1 大量蒐集 --->train
     test,
+chi_square for Pearson:
+https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2_contingency.html
+correction = False, input 2 by 2 matrix as in the handout.
 ***
     問題：
     1.價格貴，卻物超所值....這該怎麼解？
