@@ -37,7 +37,7 @@ https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2_con
 correction = False, input 2 by 2 matrix as in the handout.
 ***
     問題：
-    1.價格貴，卻物超所值....這該怎麼解？
-    2.polarity_review.txt 5915行 不能做pos:
-    - 1 	 游泳池 是 亮点 我们 才 住 的 ' 结果 7 点后 不开 ' ' 酒店 的 房型 别家 1000b 就 住 到 了 &# 39 ; 不划算 
+    1.價格貴，卻物超所值....這該怎麼解？
+    2.polarity_review.txt 5915行 不能做pos:
+    - 1         游泳池 是 亮点 我们 才 住 的 ' 结果 7 点后 不开 ' ' 酒店 的 房型 别家 1000b 就 住 到 了 &# 39 ; 不划算 
     
