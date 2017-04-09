@@ -10,7 +10,6 @@ path_to_jar="./segmenter/stanford-segmenter-3.5.2.jar",
  path_to_dict="./segmenter/data/dict-chris6.ser.gz")
 
 
-tag_list = []
 out = open('out','w')
 
 def tosimple(filename):
@@ -28,13 +27,5 @@ def tosimple(filename):
 			out.write(line)
 		count = count + 1
 
-x = tosimple('../data/simple/aspect_review.txt')
-print x
+tosimple('../data/simple/aspect_review.txt')
 
-
-'''
-outfile = open('outfile', 'w')
-result = segmenter.segment(sentence)
-outfile.write(result.encode('UTF-8'))
-outfile.close()
-'''
