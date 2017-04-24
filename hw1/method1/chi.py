@@ -137,7 +137,7 @@ print clf.score(X,Y)
 print "---------------------------test------------------------------"
 
 f  = open('test_data_delete_duplicate.txt','r')
-fo = open('w2v_rf_degenerate.csv','w')
+fo = open('wordvec_RF_delete_duplicate.csv','w')
 ff = open('test_proba','w')
 fo.write('Id,Label\n')
 
@@ -155,9 +155,10 @@ for line in f:
 	if line == '\n':
 		ff.write(str(i)+',0\n')
 		while j < i*3:
-			target = int(aspect_class_[test_index[j][2]])-1
-			predict_value = compare(int(degenerate_[i-1][target]))
-			fo.write(str(j+1)+','+str(predict_value)+'\n')
+			fo.write(str(j+1)+',0\n')
+			#target = int(aspect_class_[test_index[j][2]])-1
+			#predict_value = compare(int(degenerate_[i-1][target]))
+			#fo.write(str(j+1)+','+str(predict_value)+'\n')
 			j = j+1
 	else:
 		line = line.split()
