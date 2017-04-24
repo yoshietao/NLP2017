@@ -16,9 +16,8 @@ https://github.com/fxsjy/jieba
 *** 
 #### 詞性：
 https://github.com/memect/kg-beijing/wiki/%E4%B8%AD%E6%96%87%E8%AF%8D%E6%80%A7%E6%A0%87%E8%AE%B0%E9%9B%86
-
-    不相關的詞性：
-    DEG/DEC：的   AS：了   P：加，因為...   DT：這個   PU：標點符號   CD：一   M：顆   LC：中
+c:轉折詞
+r：代名詞
 #### 編碼：
 http://blog.wahahajk.com/2009/08/unicodedecodeerror-ascii-codec-cant.html
 http://www.prudentman.idv.tw/2015/08/python-string-list-chinese-encode-decode.html
@@ -40,7 +39,3 @@ correction = False, input 2 by 2 matrix as in the handout.
 ***
     問題：
     1.價格貴，卻物超所值....這該怎麼解？
-    2.polarity_review.txt 5915行 不能做pos:
-    - 1 游泳池 是 亮点 我们 才 住 的 ' 结果 7 点后 不开 ' ' 酒店 的 房型 别家 1000b 就 住 到 了 &# 39 ; 不划算
-    3.6607行也不能：
-    1 带 孩子 游玩 ， 入住 的 是 大 床间 ， 房间 装饰 有 古典 风味 ， 干净 明亮 ， 配套 设施 齐全 ， 比如 泳池 、 健身 设施 是 孩子 每晚 必玩     的 ， 在 北京 游玩 了 一天 回到 酒店 可以 放松 一下 。 另外 出行 方便 距 地铁 4 # 线 很 近 （ 东四 站 口 ） ， 酒店 坐落 在 王府井大街 北     口 ， 出 酒店 往南 直行 便是 王府井 商业街 区 ， 总之 孩子 很 满意 、 高兴 。
